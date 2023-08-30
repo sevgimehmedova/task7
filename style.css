@@ -1,0 +1,79 @@
+body{
+align-items: center;
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+margin: 100px 300px 300px 300px;
+padding: 0;
+}
+
+h1 {
+    text-align: center;
+background-color: #000000;
+color: #fff;
+padding: 10px;
+text-align: center;
+}
+
+h2 {
+background-color: #062b17;
+text-align: center;
+color: #fff;
+padding: 5px;
+}
+form {
+background-color: #fff;
+height: 315px;
+width: 920px;
+padding:0 ;
+margin: 0;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    align-items: center;
+width: 97%;
+padding: 10px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+input[type="submit"] {
+    text-align: center;
+    align-items: center;
+background-color: #333;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #555;
+}
+
+#addUserMessage {
+color: rgb(2, 62, 2);
+font-weight: bold;
+margin-top: 10px;
+}
+
+#editUserMessage {
+color: rgb(5, 5, 42);
+font-weight: bold;
+margin-top: 10px;
+}
+
+#deleteUserMessage {
+color: rgb(95, 9, 9);
+font-weight: bold;
+margin-top: 10px;
+}
